@@ -85,7 +85,8 @@ public class Algoritmos {
         }
 
         salida += "\nIteracion donde paro: " + (iteracion - 1) + "\n";
-        salida += "Error maximo en que paro: " + errorMaximo + "\n\n";
+        salida += "Error maximo en que paro: " + String.format("%.5f", errorMaximo) + "\n\n";
+
 
         salida += "Valores finales de X:\n";
         for (int i = 0; i < n; i++) {

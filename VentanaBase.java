@@ -16,6 +16,7 @@ public class VentanaBase extends JFrame {
     public VentanaBase() {
         setTitle("Metodo de Gauss-Seidel ");
         setSize(800, 600);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
